@@ -147,7 +147,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }} #файл без расширения
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             cd taski
